@@ -30,7 +30,7 @@ defmodule Bcryptrs.MixProject do
         "checksum-*.exs",
         "README*"
       ],
-      licenses: ["Apache-2.0"],
+      licenses: ["MIT"],
       links: %{
         "bcrypt_elixir" => "https://hexdocs.pm/bcrypt_elixir",
         "github" => "https://github.com/dkuku/bcryptrs"
