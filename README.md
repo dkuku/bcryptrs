@@ -10,7 +10,7 @@ by adding `bcryptrs` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:bcryptrs, "~> 0.0.2"}
+    {:bcryptrs, "~> 0.1.0"}
   ]
 end
 ```
