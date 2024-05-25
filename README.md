@@ -1,16 +1,16 @@
-# BcryptRs
+# Bcryptrs
 
-**TODO: Add description**
-
+Bcryptrs is a drop in replacement for bcrypt_elixir
+It uses rustler precompiled and does not require C compiler in yoyur image
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `bcrypt_rs` to your list of dependencies in `mix.exs`:
+by adding `bcryptrs` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
   [
-    {:bcrypt_rs, "~> 0.1.0"}
+    {:bcryptrs, "~> 0.0.2"}
   ]
 end
 ```
