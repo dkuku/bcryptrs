@@ -44,7 +44,12 @@ end
 
 defmodule Bcryptrs.Native do
   version = Mix.Project.config()[:version]
-  unsupported = []
+
+  unsupported = [
+    "aarch64-unknown-linux-musl",
+    "x86_64-unknown-linux-musl",
+    "x86_64-unknown-freebsd"
+  ]
 
   use RustlerPrecompiled,
     otp_app: :bcryptrs,
