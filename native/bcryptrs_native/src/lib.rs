@@ -14,4 +14,4 @@ pub fn verify_pass(password: &str, hashed: &str) -> Option<bool> {
     }
 }
 
-rustler::init!("Elixir.Bcryptrs.Native", [hash_pwd_salt, verify_pass]);
+rustler::init!("Elixir.Bcryptrs.Native");
