@@ -1,7 +1,7 @@
 defmodule Bcryptrs.MixProject do
   use Mix.Project
 
-  @version "0.1.3"
+  @version "0.1.4"
   def project do
     [
       app: :bcryptrs,
@@ -48,7 +48,7 @@ defmodule Bcryptrs.MixProject do
       {:stream_data, "~> 1.0", only: :test},
       {:bcrypt_elixir, "~> 3.0", only: :test},
       {:rustler, "~> 0.34", optional: true},
-      {:rustler_precompiled, "~> 0.7", only: [:dev, :test], runtime: false},
+      {:rustler_precompiled, "~> 0.7"},
       {:ex_doc, "~> 0.33", only: :dev, runtime: false}
     ]
   end

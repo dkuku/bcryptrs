@@ -15,6 +15,15 @@ def deps do
 end
 ```
 
+## Usage in tests:
+
+add to your `config/test.exs` do run the tests faster
+4 is the minimum cost. Any value that's lower won't work
+
+```elixir
+config :bcryptrs, cost: 4
+```
+
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at <https://hexdocs.pm/bcrypt_rs>.
