@@ -58,7 +58,7 @@ jobs:
         target: ${{ matrix.job.target }}
 
     - name: Build the project
-      id: build
+      id: build-crate
       uses: philss/rustler-precompiled-action@v1.1.4
       with:
         project-name: bcryptrs_native
